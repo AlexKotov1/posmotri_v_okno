@@ -55,7 +55,7 @@ ol {
 	gap: 30px;
 	align-items: end;
 	align-content: center;
-	margin: 30px ;
+	margin: 33px ;
 	padding-bottom: 92px;
 
 }
@@ -102,7 +102,7 @@ fieldset {
 	background-color: #1b1919;
 	border: 1px solid white;
 	color: white;
-	height: 40px;
+	height: 36px;
 	box-sizing: border-box;
 	text-align: center;
 	text-decoration: none;
@@ -263,7 +263,7 @@ input.search-form__textfield:Focus {
 }
 
 .content__list-item:not(:first-of-type) {
-		padding-top: 32px;
+		padding-top: 21px;
 }
 
 .content__video-card {
@@ -286,8 +286,4 @@ input.search-form__textfield:Focus {
 }
 .content__list {
 	position:relative;
-}
-.preloader:has(.content__list){
-	position:absolute;
-
 }
