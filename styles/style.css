@@ -16,7 +16,7 @@ html {
   font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
   background-color: #1b1919;
-	overflow: hidden;
+	overflow: scroll;
 }
 
 h1,
@@ -75,7 +75,9 @@ fieldset {
 	cursor: pointer;
 
 }
+.search-form__label{
 
+}
 .search-form__label-text{
 	padding-left: 2px;
 	padding-right: 10px;
@@ -91,13 +93,17 @@ fieldset {
 	height: 20px;
 
 }
+.search-form__label [type="checkbox"]:focus + input{
+	outline: 3px solid yellow;
+}
 
 .button {
 	cursor: pointer;
 	background-color: #1b1919;
 	border: 1px solid white;
 	color: white;
-	padding:7px 0;
+	height: 40px;
+	box-sizing: border-box;
 	text-align: center;
 	text-decoration: none;
 	font-size: 18px;
@@ -105,11 +111,34 @@ fieldset {
 	width: 100%;
 	font-weight: bold;
 	font-family: 'Fira Sans Condensed', sans-serif;
+
+}
+
+.button:active {
+	background-color: #545050;
+}
+
+.button:hover {
+	text-decoration: underline;
+}
+
+
+
+.button:focus{
+	border: none;
+}
+.button:focus-visible{
+	box-sizing: border-box;
+	outline: 3px double white;
+	height: 37px;
 }
 
 .more-button {
-	margin-top: 30px;
+	width: 98%;
+	margin: 30px 4px 4px;
 }
+
+
 input.search-form__textfield {
 	width: 30vh;
 	height: 28px;
@@ -148,7 +177,7 @@ input.search-form__textfield:Focus {
 
 .result {
 	width: 800px;
-	overflow:hidden;
+
 
 }
 
@@ -183,14 +212,25 @@ input.search-form__textfield:Focus {
 
 }
 
-.content__video-card:active {
-	background-color: #545050;
-}
+
 
 .content__card-link {
 	color: white;
 	text-decoration: none;
+	display: block;
+	margin: 3px;
 }
+.content__card-link_current {
+	background-color: #545050;
+}
+
+.content__video-card:active {
+	background-color: #545050;
+}
+.content__video-card:hover {
+	text-decoration: underline;
+}
+
 .content__video-card-title {
 	font-size: 32px;
 	text-transform: uppercase;
@@ -201,7 +241,7 @@ input.search-form__textfield:Focus {
 
 	font-size: 12px;
 
-	height: 60px;
+	height: 62px;
 }
 .content__video-card-description {
 	line-height: 15px;
@@ -217,19 +257,19 @@ input.search-form__textfield:Focus {
 }
 .content__list {
 	height: 41vh;
-	scrollbar-width: none;
+	scrollbar-width: thin;
 	overflow: auto;
-
-
+	scrollbar-color: black #1b1919 ;
 }
+
 .content__list-item:not(:first-of-type) {
 		padding-top: 32px;
 }
+
 .content__video-card {
 	display: flex;
 	max-height: 106px;
 	overflow: hidden;
-
 }
 .content__video-card-description-container {
 	min-width:50%;
