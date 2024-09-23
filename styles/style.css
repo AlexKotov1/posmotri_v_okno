@@ -176,7 +176,7 @@ input.search-form__textfield:Focus {
 
 
 .result {
-	width: 800px;
+	min-width: 710px;
 
 
 }
@@ -208,7 +208,7 @@ input.search-form__textfield:Focus {
 
 
 .content__details {
-	width: 35%;
+	width: 36%;
 
 }
 
@@ -256,14 +256,14 @@ input.search-form__textfield:Focus {
 	padding: 4px 0;
 }
 .content__list {
-	height: 41vh;
+	height: 42vh;
 	scrollbar-width: thin;
 	overflow: auto;
 	scrollbar-color: black #1b1919 ;
 }
 
 .content__list-item:not(:first-of-type) {
-		padding-top: 21px;
+		padding-top: 26px;
 }
 
 .content__video-card {
