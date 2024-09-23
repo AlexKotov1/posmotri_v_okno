@@ -52,11 +52,11 @@ ol {
   display:flex;
 	height: 100vh;
 	overflow:hidden;
-	gap: 30px;
+	gap: 33px;
 	align-items: end;
 	align-content: center;
-	margin: 33px ;
-	padding-bottom: 92px;
+	margin: 30px ;
+	padding-bottom: 88px;
 
 }
 
