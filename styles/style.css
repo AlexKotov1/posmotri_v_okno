@@ -16,7 +16,8 @@ html {
   font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
   background-color: #1b1919;
-	overflow: scroll;
+	overflow: hidden;
+
 }
 
 h1,
@@ -50,13 +51,13 @@ ol {
 
 .content {
   display:flex;
-	height: 100vh;
+	height: 800px;
 	overflow:hidden;
 	gap: 33px;
 	align-items: end;
 	align-content: center;
-	margin: 30px ;
-	padding-bottom: 88px;
+	margin: 0 30px 133px  ;
+	padding-bottom: 133px;
 
 }
 
@@ -125,8 +126,9 @@ fieldset {
 
 
 .button:focus{
-	border: none;
+	border: 1px solid white;
 }
+
 .button:focus-visible{
 	box-sizing: border-box;
 	outline: 3px double white;
