@@ -60,6 +60,7 @@ fieldset {
 	align-items: end;
 	align-content: center;
 	margin: 0 30px;
+	padding-bottom: 133px;
 }
 
 .content__details {
@@ -175,6 +176,7 @@ input.search-form__textfield:Focus {
 	width: 100%;
 	font-weight: bold;
 	font-family: 'Fira Sans Condensed', sans-serif;
+	margin-bottom: 4px;
 }
 
 .button:active {
@@ -269,4 +271,11 @@ input.search-form__textfield:Focus {
 	width: 200px;
 	object-fit: cover;
 	padding: 2px 0;
+
+}
+.result__video-container {
+	position:relative;
+}
+.content__list {
+	position:relative;
 }
