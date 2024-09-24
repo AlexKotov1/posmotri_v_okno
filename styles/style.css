@@ -273,9 +273,11 @@ input.search-form__textfield:Focus {
 	padding: 2px 0;
 
 }
+
 .result__video-container {
-	position:relative;
+	position: relative;
 }
+
 .content__list {
-	position:relative;
+	position: relative;
 }
