@@ -16,7 +16,9 @@ html {
 	font-family: 'Fira Sans Condensed', sans-serif;
 	font-size: 18px;
 	background-color: #1b1919;
+	object-position: center;
 	align-content: center;
+
 }
 
 h1,
@@ -105,9 +107,9 @@ fieldset {
 	justify-content: center;
 	gap: 16px;
 }
+
 .search-form__label:has(.search-form__checkbox) {
 	display: flex;
-
 }
 
 .search-form__label-text {
