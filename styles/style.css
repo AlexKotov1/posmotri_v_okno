@@ -15,12 +15,11 @@ html {
 	color: #fff;
 	font-family: 'Fira Sans Condensed', sans-serif;
 	font-size: 18px;
+	height: 100%;
 	background-color: #1b1919;
-
 	display: flex;
 	justify-content: center;
 	align-items: center;
-
 }
 
 h1,
@@ -61,6 +60,7 @@ fieldset {
 	gap: 20px;
 	align-items: end;
 	margin: 0 30px;
+
 }
 
 .content__details {
