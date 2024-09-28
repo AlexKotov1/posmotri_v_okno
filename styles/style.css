@@ -15,11 +15,9 @@ html {
 	color: #fff;
 	font-family: 'Fira Sans Condensed', sans-serif;
 	font-size: 18px;
-	height: 800px;
 	background-color: #1b1919;
-	align-content: center;
 	display: flex;
-	justify-content: center;
+	align-items: center;
 }
 
 h1,
@@ -209,9 +207,9 @@ fieldset {
 
 .button:focus-visible {
 	box-sizing: border-box;
-	outline: 3px double white;
+	outline: 1px solid white;
 	height: 37px;
-	border: 1px solid #545050;
+	outline-offset: 1px;
 }
 
 .more-button {
@@ -253,12 +251,19 @@ fieldset {
 	text-decoration-thickness: 1.5px;
 }
 
+.content__card-link:focus {
+	outline: none;
+}
+
+.content__card-link:focus-visible {
+	outline: 1px solid white;
+}
+
 .content__video-card-title {
 	font-size: 32px;
 	text-transform: uppercase;
 	text-overflow: ellipsis;
 	width: 200px;
-
 	overflow: hidden;
 }
 
